@@ -10,7 +10,7 @@ class App extends Component {
 
     componentWillMount() {
         firebase.initializeApp({
-            //CONFIG INFO HERE
+            //Firebase config here
         });
 
         firebase.auth().onAuthStateChanged((user) => {
